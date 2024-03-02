@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a multi-speciality chatbot powered by Generative AI, developed in different phases to showcase various capabilities. The chatbot is built using Streamlit, Google Generative AI, and other relevant libraries.
+This project is a multi-speciality chatbot powered by Generative AI, developed in different phases to showcase various capabilities. The chatbot is built using Streamlit, Google Generative AI, PyPDF2, SpeechRecognition, and other relevant libraries.
 
 ## Phases
 
@@ -10,11 +10,20 @@ This project is a multi-speciality chatbot powered by Generative AI, developed i
 
 - Implemented a basic chatbot using the Gemini API.
 - Behaves like a chat-based model using Gemini.
+  
+  **Libraries Used:**
+  - [Streamlit](https://streamlit.io/)
+  - [Gemini API](https://ai.google.dev/tutorials/python_quickstart#chat_conversations)
 
 ### Phase 2: Generative AI Chatbot for Image Content
 
 - Introduced a generative AI chatbot capable of generating content from images.
 - Utilized Google Generative AI models to process and generate content based on uploaded images.
+  
+  **Libraries Used:**
+  - [Streamlit](https://streamlit.io/)
+  - [Google Generative AI](https://github.com/googleapis/python-generativeai)
+  - [PIL (Pillow)](https://pillow.readthedocs.io/)
 
 ### Phase 3: Multi-Functional Chatbot
 
@@ -22,6 +31,12 @@ This project is a multi-speciality chatbot powered by Generative AI, developed i
   - Text: Accepts user input and generates content based on prompts.
   - Vision: Processes and generates content from uploaded images.
   - PDF: Processes multiple PDF files, allowing users to ask questions from the content.
+  
+  **Libraries Used:**
+  - [Streamlit](https://streamlit.io/)
+  - [PyPDF2](https://pythonhosted.org/PyPDF2/)
+  - [Google Generative AI](https://github.com/googleapis/python-generativeai)
+  - [PIL (Pillow)](https://pillow.readthedocs.io/)
 
 ### Phase 4: Audio-Based Generative AI Chatbot
 
@@ -30,6 +45,14 @@ This project is a multi-speciality chatbot powered by Generative AI, developed i
   - Speech-to-text conversion.
   - Translation of audio content to different languages.
   - Generating responses based on transcribed text.
+  
+  **Libraries Used:**
+  - [Streamlit](https://streamlit.io/)
+  - [Sounddevice](https://python-sounddevice.readthedocs.io/en/0.4.2/)
+  - [Soundfile](https://pysoundfile.readthedocs.io/en/latest/)
+  - [NumPy](https://numpy.org/)
+  - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+  - [Google Generative AI](https://github.com/googleapis/python-generativeai)
 
 ## Getting Started
 
