@@ -63,3 +63,15 @@ This project is a multi-speciality chatbot powered by Generative AI, developed i
    ```bash
    git clone https://github.com/your-username/generative-ai-chatbot.git
    cd generative-ai-chatbot
+   Usage
+Access the chatbot through the Streamlit web interface.
+Choose different processing types and interact with the chatbot.
+Upload images, PDF files, or use the audio-based feature for a versatile experience.
+Additional Information
+For more details about each phase, refer to the respective sections in the codebase.
+Connect with the developer on LinkedIn.
+Credits
+Full credit to Gemini AI for their contributions to the project.
+Special thanks to Streamlit for the user interface.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
